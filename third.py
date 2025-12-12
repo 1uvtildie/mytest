@@ -33,9 +33,9 @@ c1,c2=st.columns(2)
 
 #按钮“上一张”
 with c1:
-    st.button("上一张",on_click　=lastImg,use_container_width=True)
+    st.button("上一张",on_click=lastImg,use_container_width=True)
 
 
 #按钮“下一张”
 with c2:
-    st.button("下一张",on_click　=nextImg,use_container_width=True)
+    st.button("下一张",on_click=nextImg,use_container_width=True)
